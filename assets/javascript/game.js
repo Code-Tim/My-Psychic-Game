@@ -11,7 +11,7 @@ var tried = [];
 var alphabet = "abcdefghijklmnopqrstuvwxyz"
 var wins = 0
 var loses = 0
-var tries = 10
+var tries = 9
 
 
 var computerGuess = alphabet[Math.floor(Math.random() * alphabet.length)];// random index
@@ -20,7 +20,7 @@ console.log('my guess', computerGuess)
 // let computerGuess="a"// stubbing out the random letter
 
 function reset() {
-    tries = 10
+    tries = 9
     $tries.innerText = tries
     computerGuess = alphabet[Math.floor(Math.random() * alphabet.length)];
     console.log('my guess', computerGuess)

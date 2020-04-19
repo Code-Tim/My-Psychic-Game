@@ -1,0 +1,14 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: bolder;
+    line-height: 150%;
+}
+
+h3 {
+    line-height: 200%;
+}
+
+p {
+    line-height: 200%;
+}
