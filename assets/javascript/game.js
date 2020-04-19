@@ -46,6 +46,7 @@ document.onkeyup = function (event) {
             // wins += 1//shorthand
             wins++
             $wins.innerText = wins
+            document.getElementById('guess').innerText = computerGuess
             reset()
 
             //they won
@@ -65,17 +66,6 @@ document.onkeyup = function (event) {
         }
 
     } else {
-        console.log("Shouldn't a psychic make valid choices, that wasn\'t a letter")
+        console.log("I thought you were a shouldn't a psychic make valid choices, that wasn't a letter")
     }
 }
-// function gimme7() {//definition
-//     return 7
-// }
-// console.log(gimme7)//refer to 
-// console.log(gimme7())//call's it up
-// document.onkeydown = function () { tries += gimme7() }
-
-//let alphabeArrayt= ["a","bcdefghijklmnop"]
-
-// console.log(alphabet.includes("p"))
-// console.log(alphabet.includes("q"))
